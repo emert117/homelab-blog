@@ -1,7 +1,7 @@
 ---
 title: "Hello World from DevOps@home"
 date: 2026-05-03T21:50:02+02:00
-draft: true
+draft: false
 ---
 
 ## DevOps@home 
