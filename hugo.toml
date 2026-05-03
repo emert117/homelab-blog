@@ -1,7 +1,7 @@
 baseURL = 'https://emert117.github.io/homelab-blog/'
 languageCode = 'en-us'
 title = 'DevOps@home Blog'
-theme = 'terminal'
+# theme = 'terminal'
 contentDir = "content"
 relativeURLs = true
 
@@ -16,9 +16,3 @@ relativeURLs = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-
-[module]
-  # this is needed when you fetch the theme as a submodule to your repo.
-  # replacements = "github.com/panr/hugo-theme-terminal/4 -> themes/terminal"
-[[module.imports]]
-  path = 'github.com/panr/hugo-theme-terminal/v4'
