@@ -11,3 +11,7 @@ contentDir = "posts"
 
   # The theme uses "posts" as the default content directory name
   contentTypeName = "posts"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
