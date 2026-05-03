@@ -1,7 +1,7 @@
 baseURL = 'https://emert117.github.io/homelab-blog/'
 languageCode = 'en-us'
 title = 'DevOps@home Blog'
-# theme = 'terminal'
+theme = 'terminal'
 contentDir = "content"
 relativeURLs = true
 
