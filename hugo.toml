@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'DevOps@home Blog'
 theme = 'terminal'
 contentDir = "content"
+relativeURLs = true
 
 [params]
   # These are the default terminal colors: 
