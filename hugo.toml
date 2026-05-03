@@ -1,4 +1,4 @@
-baseURL = 'https://emert117.github.io/homelab-blog/'
+baseURL = 'https://devops.emremert.dev/'
 languageCode = 'en-us'
 title = 'DevOps@home Blog'
 theme = 'terminal'
