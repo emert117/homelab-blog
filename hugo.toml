@@ -1,0 +1,13 @@
+baseURL = 'https://devops.emremert.dev/'
+languageCode = 'en-us'
+title = 'DevOps@home Blog'
+theme = 'terminal'
+contentDir = "posts"
+
+[params]
+  # These are the default terminal colors: 
+  # "orange", "blue", "red", "green", "pink", "white"
+  themeColor = "orange"
+
+  # The theme uses "posts" as the default content directory name
+  contentTypeName = "posts"
