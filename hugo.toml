@@ -22,8 +22,8 @@ contentDir = "content"
     title = "Terminal"
     [languages.en.params]
       subtitle = "DevOps@home Blog"
-      owner = ""
-      keywords = ""
+      owner = "Emre Mert"
+      keywords = "DevOps"
       copyright = ""
       menuMore = "Show more"
       readMore = "Read more"
@@ -32,9 +32,6 @@ contentDir = "content"
       olderPosts = "Older posts"
       missingContentMessage = "Page not found..."
       missingBackButtonLabel = "Back to home page"
-
-      [languages.en.params.logo]
-        logoText = "DevOps@home"
 
       [languages.en.menu]
         [[languages.en.menu.main]]
@@ -45,5 +42,5 @@ contentDir = "content"
         [[languages.en.menu.main]]
           identifier = "showcase"
           name = "But why"
-          url = "/posts/but-why"
+          url = "/but-why"
           weight = 3
