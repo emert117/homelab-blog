@@ -15,3 +15,35 @@ contentDir = "content"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+    
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Terminal"
+    [languages.en.params]
+      subtitle = "DevOps@home Blog"
+      owner = ""
+      keywords = ""
+      copyright = ""
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+
+      [languages.en.params.logo]
+        logoText = "DevOps@home"
+
+      [languages.en.menu]
+        [[languages.en.menu.main]]
+          identifier = "about"
+          name = "About"
+          url = "/about"
+          weight = 1
+        [[languages.en.menu.main]]
+          identifier = "showcase"
+          name = "But why"
+          url = "/posts/but-why"
+          weight = 3
